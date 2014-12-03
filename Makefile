@@ -3,7 +3,7 @@
 fontpath=/usr/share/fonts/truetype/malayalam
 font=Meera
 
-default: compile
+default: all
 all: compile webfonts
 
 compile:
@@ -18,3 +18,8 @@ webfonts:compile
 
 install: compile
 	@install -D -m 0644 ${font}.ttf ${DESTDIR}/${fontpath}/${font}.ttf;
+
+test: compile
+# Test the fonts
+	@echo "Testing font ${font}";
+	@hb-view ${font}.ttf --text-file tests/tests.txt --output-file tests/${font}.pdf;
