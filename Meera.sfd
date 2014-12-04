@@ -68,9 +68,34 @@ Lookup: 4 0 0 "'pstf' Post Base Forms in Malay+AQEA-lam lookup 7"  {"'pstf' Post
 Lookup: 4 0 0 "'pstf' Post Base Forms in Malay+AQEA-lam2 lookup 7"  {"'pstf' Post Base Forms in Malay+AQEA-lam2 lookup 7 subtable"  } ['pstf' ('mlm2' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0-2" [307,30,2] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'abvm' Above Base Mark in Malay+AQEA-lam2 lookup 0"  {"'abvm' Above Base Mark in Malay+AQEA-lam2 lookup 0-1"  } ['abvm' ('DFLT' <'dflt' > 'mlm2' <'dflt' > ) ]
+Lookup: 2 0 0 "'ccmp' Glyph Composition/Decomposition lookup 8" { "'ccmp' Glyph Composition/Decomposition lookup 8 subtable"  } ['ccmp' ('mlm2' <'dflt' > 'mlym' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' Contextual Alternates lookup 9" { "'calt' Contextual Alternates lookup 9 subtable"  } ['calt' ('mlm2' <'dflt' > 'mlym' <'dflt' > ) ]
 MarkAttachClasses: 2
 "nomark" 0 
 DEI: 91125
+ChainSub2: class "'calt' Contextual Alternates lookup 9 subtable" 5 5 5 1
+  Class: 56 hyphen zero one two three four five six seven eight nine
+  Class: 7 uni25CC
+  Class: 2 a2
+  Class: 11 anuswara m1
+  BClass: 56 hyphen zero one two three four five six seven eight nine
+  BClass: 7 uni25CC
+  BClass: 2 a2
+  BClass: 11 anuswara m1
+  FClass: 56 hyphen zero one two three four five six seven eight nine
+  FClass: 7 uni25CC
+  FClass: 2 a2
+  FClass: 11 anuswara m1
+ 1 1 2
+  ClsList: 2
+  BClsList: 1
+  FClsList: 3 4
+ 1
+  SeqLookup: 0 "'ccmp' Glyph Composition/Decomposition lookup 8"
+  ClassNames: "All_Others" "digits" "dotted_c" "aa" "am_ma"
+  BClassNames: "All_Others" "digits" "dotted_c" "aa" "am_ma"
+  FClassNames: "All_Others" "digits" "dotted_c" "aa" "am_ma"
+EndFPST
 LangName: 1033 "" "" "Regular" "Meera2014SMC" "" "6.1.1" "" "" "" "Hussain KH and Suresh P for Swnthanthra Malayalam Computing (SMC)" "Inspired by 'Rachana' (a linguistic movement headed by R. Chitrajakumar for Traditional Exhaustive character set of Malayalam)" "http://smc.org.in" "http://smc.org.in+AAoACgAA-hussain.rachana@gmail.com; psuresh@riseup.net; psuresh@gmx.com; santhosh.thottingal@gmail.com; rajeeshknambiar@gmail.com" "Meera Medium OpenType font+AAoADQAK    Copyright (C) 2007, 2011 Hussain K.H,Suresh P,+AAoA    Swathanthra Malayalam Computing(http://smc.org.in,http://savannah.nongnu.org/projects/smc)+AAoACgAA    This program is free software: you can redistribute it and/or modify+AAoA    it under the terms of the GNU General Public License as published by+AAoA    the Free Software Foundation, either version 3 of the License, or+AAoA    (at your option) any later version.+AAoACgAA    This program is distributed in the hope that it will be useful,+AAoA    but WITHOUT ANY WARRANTY; without even the implied warranty of+AAoA    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the+AAoA    GNU General Public License for more details.+AAoADQAK    You should have received a copy of the GNU General Public License+AAoA    along with this program.  If not, see <http://www.gnu.org/licenses/>.+AAoACgAA---------------+AAoA-Font Exception+AAoA---------------+AAoACgAA    As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version. +AAoA" "http://www.gnu.org/copyleft/gpl.html" "" "Meera" "Regular" "Meera" 
 GaspTable: 3 8 2 16 1 65535 3 0
 Encoding: Custom
@@ -6379,6 +6404,7 @@ SplineSet
  294 226 294 226 348 192 c 1,64,-1
 EndSplineSet
 Validated: 1
+MultipleSubs2: "'ccmp' Glyph Composition/Decomposition lookup 8 subtable" .null
 EndChar
 
 StartChar: r4
