@@ -1151,34 +1151,9 @@ lookup haln_chillu {
     sub r3 xx ZWJ  by r3cil;
 } haln_chillu;
 
-lookup kern_latin {
-  lookupflag 0;
-  lookupflag 0;
-    pos A V -480;
-    pos L o -200;
-    pos L a -114;
-    pos V A -480;
-    pos a t -182;
-    pos a o -182;
-    pos a d -161;
-    pos e x -191;
-    pos f i -68;
-    pos f f -71;
-    pos o f -177;
-    pos r o -200;
-    pos r e -201;
-    pos r c -200;
-    pos t o -186;
-    pos t e -186;
-    pos v o -175;
-    pos v e -141;
-    pos v c -218;
-    pos v a -180;
-    pos x a -164;
-    pos x e -189;
-    pos x o -184;
-    pos x c -184;
-} kern_latin;
+#lookup kern_latin {
+#  lookupflag 0;
+#} kern_latin;
 
 lookup abvm_chandrakkala {
   lookupflag 0;

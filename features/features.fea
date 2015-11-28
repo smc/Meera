@@ -120,8 +120,8 @@ feature abvm {
 
 # KERN
 
-feature kern {
-    script latn;
-        language dflt ;
-            lookup kern_latin;
-} kern;
+#feature kern {
+#    script latn;
+#        language dflt ;
+#            lookup kern_latin;
+#} kern;
