@@ -1,34 +1,17 @@
 Meera Font
 ==========
 
-The Meera opentype font, a Malayalam traditional script font, is primarily
-created for the GNU system. The inspiration for this work is drawn from the
-pioneering works done by Rachana Aksharavedi. The font is a result of
-collaborative effort from:
+Meera font is a Malayalam font designed by Hussain K H and maintained by Swathanthra Malayalam Computing project. 
+This is a comprehensive Malayalam font with 1000+ glyphs for all common Malayalam ligatures.
 
-1. Mr.Hussain K H, The designer of popular Rachana fonts for Rachana Aksharavedi
-and an ardent supporter of traditional Malayalam orthography.
+It has carefully designed ascend, descend metrics optimized for Malayalam script's vertically stacked conjuncts.
+Meera is even stroke typeface for better screen rendering, with individually designed glyphs for complex conjuncts rather than
+using component glyphs. The opentype rules used in this font later became a reference for many other Malayalam fonts.
 
-2. Suresh P, A free software enthusiast and hobbyist).
+Released in 2007, Meera is default Malayalam font for many GNU/Linux distros for Malayalam script. The font is widely used in
+web as the primary choice for Malayalam screen font. In 2016 Latin glyphs were added. The font is available only in regular style.
 
-3. Swathanthra Malayalam Computing - A free software collective engaged in
-development, localization and popularization of various free software for
-Malayalam.
-
-Main features of the font
-=========================
-1. Traditional script is used.
-2. Even stroke typeface for better screen rendering.
-3. Proper Ascent/Descent metrics considering the nature of vertically
-stacked Malayalam conjuncts.
-4. Individually designed glyphs for complex conjuncts rather than
-using component glyphs.
-5. Glyphs for conjuncts with gopi-repham already designed for future use.
-
-To do
-=====
-1. Solve kerning issues.
-2. Add support for silgraphite.
+Source code is available at https://gitlab.com/smc/meera
 
 Maintainers
 =============
