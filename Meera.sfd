@@ -3,8 +3,8 @@ FontName: Meera
 FullName: Meera
 FamilyName: Meera
 Weight: Book
-Copyright: Digitized data copyright (c) 2007-2013 Hussain K H, Suresh P, Santhosh Thottingal, Rajeesh K Nambiar, Swathanthra Malayalam Computing (http://smc.org.in)
-Version: 6.1.1
+Copyright: Digitized data copyright (c) 2007-2016 Hussain K H, Suresh P, Santhosh Thottingal, Rajeesh K Nambiar, Swathanthra Malayalam Computing (http://smc.org.in)
+Version: 7.0
 ItalicAngle: 0
 UnderlinePosition: -942
 UnderlineWidth: 61
@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1450005796
+ModificationTime: 1458270743
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -58,7 +58,8 @@ OS2UnicodeRanges: 80800003.00002000.00000000.00000000
 MarkAttachClasses: 2
 "nomark" 0 
 DEI: 91125
-LangName: 1033 "" "" "Regular" "Meera2014SMC" "" "6.1.1" "" "" "" "Hussain KH and Suresh P for Swnthanthra Malayalam Computing (SMC)" "Inspired by 'Rachana' (a linguistic movement headed by R. Chitrajakumar for Traditional Exhaustive character set of Malayalam)" "http://smc.org.in" "http://smc.org.in+AAoACgAA-hussain.rachana@gmail.com; psuresh@riseup.net; psuresh@gmx.com; santhosh.thottingal@gmail.com; rajeeshknambiar@gmail.com" "Meera Medium OpenType font+AAoADQAK    Copyright (C) 2007, 2011 Hussain K.H,Suresh P,+AAoA    Swathanthra Malayalam Computing(http://smc.org.in,http://savannah.nongnu.org/projects/smc)+AAoACgAA    This program is free software: you can redistribute it and/or modify+AAoA    it under the terms of the GNU General Public License as published by+AAoA    the Free Software Foundation, either version 3 of the License, or+AAoA    (at your option) any later version.+AAoACgAA    This program is distributed in the hope that it will be useful,+AAoA    but WITHOUT ANY WARRANTY; without even the implied warranty of+AAoA    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the+AAoA    GNU General Public License for more details.+AAoADQAK    You should have received a copy of the GNU General Public License+AAoA    along with this program.  If not, see <http://www.gnu.org/licenses/>.+AAoACgAA---------------+AAoA-Font Exception+AAoA---------------+AAoACgAA    As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version. +AAoA" "http://www.gnu.org/copyleft/gpl.html" "" "Meera" "Regular" "Meera"
+LangName: 1100 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "+DS4NQA0w"
+LangName: 1033 "" "" "Regular" "Meera2016SMC" "" "7.0" "" "" "" "Hussain KH and Suresh P for Swathanthra Malayalam Computing (SMC)" "Meera font is a Malayalam font designed by Hussain K H and maintained by Swathanthra Malayalam Computing project. This is a comprehensive Malayalam font with 1000+- glyphs for all common Malayalam ligatures.+AAoACgAA-It has carefully designed ascend, descend metrics optimized for Malayalam script's vertically stacked conjuncts. Meera is even stroke typeface for better screen rendering, with individually designed glyphs for complex conjuncts rather than using component glyphs. The opentype rules used in this font later became a reference for many other Malayalam fonts.+AAoACgAA-Released in 2007, Meera is default Malayalam font for many GNU/Linux distros for Malayalam script. The font is widely used in web as the primary choice for Malayalam screen font. In 2016 Latin glyphs were added. The font is available only in regular style.+AAoACgAA-Source code is available at https://gitlab.com/smc/meera" "http://smc.org.in" "http://smc.org.in+AAoACgAA-hussain.rachana@gmail.com; psuresh@riseup.net; psuresh@gmx.com; santhosh.thottingal@gmail.com; rajeeshknambiar@gmail.com" "Digitized data copyright (C) 2007-2016 Hussain K.H, Suresh P, Santhosh Thottingal, Rajeesh Nambiar, Swathanthra Malayalam Computing(http://smc.org.in)+AAoA    +AAoA    This program is free software: you can redistribute it and/or modify+AAoA    it under the terms of  SIL Open Font License, Version 1.1  or the +AAoA    GNU General Public License as published by the Free Software Foundation,+AAoA    either version 3 of the License, or (at your option) any later version.+AAoACgAA  +AAoA    This Font Software is Duel licensed under the SIL Open Font License,+AAoA    Version 1.1 and GPLV3+- Licence with Font Exception.+AAoA-Check COPYING  file at https://gitlab.com/smc/meera for details " "https://gitlab.com/smc/meera/blob/master/COPYING" "" "Meera" "Regular" "Meera"
 GaspTable: 3 8 2 16 1 65535 3 0
 Encoding: UnicodeBmp
 Compacted: 1
@@ -67,7 +68,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 42 14
+WinInfo: 0 36 11
 BeginPrivate: 1
 BlueValues 35 [-24 0 909 934 1090 1091 1206 1235]
 EndPrivate
