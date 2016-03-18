@@ -5,13 +5,14 @@ fonts=Meera
 feature=features/features.fea
 PY=python2.7
 buildscript=tools/build.py
+version=7.0
 default: compile
 all: compile webfonts
 
 compile:
 	@for font in `echo ${fonts}`;do \
 		echo "Generating $$font.ttf";\
-		$(PY) $(buildscript) $$font.sfd $(feature);\
+		$(PY) $(buildscript) $$font.sfd $(feature) $(version);\
 	done;
 
 webfonts:compile
