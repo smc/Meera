@@ -3,17 +3,16 @@
 fontpath=/usr/share/fonts/truetype/malayalam
 fonts=Meera
 feature=features/features.fea
-kerningfeature=features/kerning.fea
 PY=python2.7
 buildscript=tools/build.py
 version=7.0
 default: compile
 all: compile webfonts
 
-compile:
+compile: clean
 	@for font in `echo ${fonts}`;do \
 		echo "Generating $$font.ttf";\
-		$(PY) $(buildscript) $$font.sfd $(feature) $(kerningfeature) $(version);\
+		$(PY) $(buildscript) $$font.sfd $(feature) $(version);\
 	done;
 
 webfonts:compile
@@ -38,4 +37,4 @@ test: compile
 
 clean:
 	@echo "Removing ttf files";
-	@rm -f *.ttf;
+	@rm -f *.ttf *.woff *.eot;

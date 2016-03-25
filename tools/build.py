@@ -12,9 +12,7 @@ for lookup in font.gpos_lookups:
 
 # Merge the new featurefile 
 font.mergeFeature(sys.argv[2])
-if sys.argv[3]:
-    font.mergeFeature(sys.argv[3])
-font.appendSFNTName('English (US)', 'Version', sys.argv[4] + '+' + time.strftime('%Y%m%d'))
+font.appendSFNTName('English (US)', 'Version', sys.argv[3] + '+' + time.strftime('%Y%m%d'))
 font.simplify()
 font.autoInstr()
 font.generate(sys.argv[1].replace(".sfd",".ttf"), flags=("omit-instructions", "round", "opentype"))
