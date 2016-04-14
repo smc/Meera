@@ -6,10 +6,19 @@ This is a comprehensive Malayalam font with 1000+ glyphs for all common Malayala
 
 It has carefully designed ascent, descent metrics optimized for Malayalam script's vertically stacked conjuncts.
 Meera is even stroke typeface for better screen rendering, with individually designed glyphs for complex conjuncts rather than
-using component glyphs. The opentype rules used in this font later became a reference for many other Malayalam fonts.
+using component glyphs.
 
-Released in 2007, Meera is default Malayalam font for many GNU/Linux distros for Malayalam script. The font is widely used in
-web as the primary choice for Malayalam screen font. In 2016 Latin glyphs were added. The font is available only in regular style.
+Meera is a san-serif counter part of Rachana font with all traditional characters. 
+It is also meant for body text like Rachana, preferably for a pamphlet or single page designs.
+Usage of Meera can be thought of similar to Helvetica typeface and its variations like Arial. 
+Meera Roman glyphs are visually similar to Arial but its orthography 
+strictly follows Meera Malayalam glyphs. Basic curves and straight lines are taken from
+Malayalam ‘റ’ and ‘വ’ characters. That is why Meera Roman glyphs differ from Helvetica
+but holds san-serif characteristics and smoothly sit with its Malayalam glyphs.
+
+Released in 2007, Meera is default Malayalam font for many GNU/Linux distros for Malayalam script.
+The font is widely used in web as the primary choice for Malayalam screen font. 
+The font is available only in regular style.
 
 Source code is available at https://gitlab.com/smc/meera
 
