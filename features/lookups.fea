@@ -103,7 +103,7 @@ lookup akhn_conjuncts {
     sub m1 xx m1  by m1m1;
     sub y1 xx k1  by y1k1;
     sub y1 xx k1 xx k1  by y1k1k1;
-    sub y1 xx ch1  by y1ch1;
+    #sub y1 xx ch1  by y1ch1;
     sub y1 xx th1  by y1th1;
     sub y1 xx th1 xx th1  by y1th1th1;
     sub y1 xx n1  by y1n1;
@@ -112,10 +112,10 @@ lookup akhn_conjuncts {
     sub l3 xx k1  by l3k1;
     sub l3 xx k1 xx k1  by l3k1k1;
     sub l3xx k3  by l3k3;
-    sub l3 xx ch1  by l3ch1;
+    #sub l3 xx ch1  by l3ch1;
     sub l3 xx th1  by l3th1;
     sub l3 xx th1 xx th1  by l3th1th1;
-    sub l3 xx p1  by l3p1;
+    #sub l3 xx p1  by l3p1;
     sub l3 xx p2  by l3p2;
     sub l3 xx p3  by l3p3;
     sub l3 xx m1  by l3m1;
@@ -201,14 +201,18 @@ lookup akhn_conditional_stacking {
     sub p3' xx' k3'  by p3k3;
     ignore sub s1' xx' p1' [xx];
     sub s1' xx' p1'  by s1p1;
-    ignore sub y1' xx' p1' [r1 r2];
+    ignore sub y1' xx' [p1 ch1]' [xx r1 r2];
     sub y1' xx' p1'  by y1p1;
+    sub y1' xx' ch1' by y1ch1;
     ignore sub zh' xx' ch1' [xx r1 r2];
     sub zh' xx' ch1'  by zhch1;
     ignore sub p3' xx' s1' [xx u1 u2 r1 r2];
     sub p3' xx' s1'  by p3s1;
     ignore sub p3' xx' th3' [xx];
     sub p3' xx' th3'  by p3th3;
+    ignore sub l3' xx' [p1 ch1]' [xx r1 r2];
+    sub l3' xx' p1'  by l3p1;
+    sub l3' xx' ch1' by l3ch1;
 } akhn_conditional_stacking;
 
 lookup blwf_la_sign_mlym {
