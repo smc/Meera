@@ -178,7 +178,6 @@ lookup akhn_conjuncts {
     sub m1 xx th1  by m1th1;
     sub l3 xx th3  by l3th3;
     sub l3 xx n1  by l1n1;
-    sub l3 xx v1  by l3v1;
     sub v1 xx n1  by v1n1;
     sub v1 xx z1  by v1z1;
     sub z1 xx k1  by z1k1;
@@ -394,7 +393,6 @@ lookup pres_reph_mlym {
     sub y1xx v1  by y1v1;
     sub l3xx th3  by l3th3;
     sub l3xx n1  by l1n1;
-    sub l3xx v1  by l3v1;
     sub v1xx n1  by v1n1;
     sub v1xx z1  by v1z1;
     sub rhrh r4  by rhrhr3;
