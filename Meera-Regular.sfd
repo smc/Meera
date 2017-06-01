@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1496325355
+ModificationTime: 1496334006
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -52,7 +52,7 @@ OS2SupYOff: 977
 OS2StrikeYSize: 98
 OS2StrikeYPos: 512
 OS2FamilyClass: 2048
-OS2Vendor: 'PfEd'
+OS2Vendor: 'SMC '
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80800003.00002000.00000000.00000000
 MarkAttachClasses: 2
@@ -68,7 +68,7 @@ NameList: Adobe Glyph List
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 24 9
+WinInfo: 48 24 9
 BeginPrivate: 1
 BlueValues 35 [-24 0 909 934 1090 1091 1206 1235]
 EndPrivate
