@@ -1,4 +1,4 @@
-# GSUB 
+# GSUB
 
 lookup pref_reph {
   lookupflag 0;
@@ -16,204 +16,298 @@ lookup akhn_chillu {
 
 lookup akhn_conjuncts {
   lookupflag 0;
-     sub k1 l1  by k1l1;
-    sub k1 xx k1  by k1k1;
-    sub k1 xx t1  by k1t1;
-    sub k1 xx nh  by k1nh;
-    sub k1 xx th1  by k1th1;
-    sub k1 xx n1  by k1n1;
-    sub k1 xx m1  by k1m1;
-    sub k1 xx sh  by k1sh;
-    sub k1 xx sh xx nh  by k1shnh;
-    sub k1 xx sh xx m1  by k1shm1;
-    sub k1 xx s1  by k1s1;
-    sub k1 xx rh xx rh  by k1rhrh;
-    sub k3 xx k3  by k3k3;
-    sub k3 xx k4  by k3k4;
-    sub k3 xx th3  by k3th3;
-    sub k3 xx th3 xx th4  by k3th3th4;
-    sub k3 xx n1  by k3n1;
-    sub k3 xx m1  by k3m1;
-    sub k4 xx n1  by k4n1;
-    sub ng xx k1  by ngk1;
-    sub ng xx ng  by ngng;
-    sub ch1 xx ch1  by ch1ch1;
-    sub ch1 xx ch2  by ch1ch2;
-    sub ch3 xx ch3  by ch3ch3;
-    sub ch3 xx nj  by ch3nj;
-    sub nj xx ch1  by njch1;
-    sub nj xx ch2  by njch2;
-    sub nj xx ch3  by njch3;
-    sub nj xx nj  by njnj;
-    sub t1 xx t1  by t1t1;
-    sub t3 xx t3  by t3t3;
-    sub t3 xx t4  by t3t4;
-    sub t3 xx m1  by t3m1;
-    sub nh xx t1  by nht1;
-    sub nh xx t2  by nht2;
-    sub nh xx t3  by nht3;
-    sub nh xx t4  by nht4;
-    sub nh xx nh  by nhnh;
-    sub nh xx m1  by nhm1;
-    sub th1 xx th1  by th1th1;
-    sub th1 xx th2  by th1th2;
-    sub th1 xx n1  by th1n1;
-    sub th1 xx p4  by th1p4;
-    sub th1 xx m1  by th1m1;
-    sub th1 xx s1  by th1s1;
-    sub th1 xx s1 xx th2  by th1s1th2;
-    sub th1 xx s1 xx n1  by th1s1n1;
-    sub th1 xx s1 xx m1  by th1s1m1;
-    sub th2 xx n1  by th2n1;
-    sub th2 xx m1  by th2m1;
-    sub th3 xx th3  by th3th3;
-    sub th3 xx th4  by th3th4;
-    sub th3 xx th4 xx n1  by th3th4n1;
-    sub th3 xx th4 xx m1  by th3th4m1;
-    sub th4 xx n1  by th4n1;
-    sub th4 xx m1  by th4m1;
-    sub n1 xx th1  by n1th1;
-    sub n1 xx th2  by n1th2;
-    sub n1 xx th3  by n1th3;
-    sub n1 xx th4  by n1th4;
-    sub n1 xx n1  by n1n1;
-    sub n1 xx m1  by n1m1;
-    sub n1 xx rh  by n1rh;
-    sub p1 xx t1  by p1t1;
-    sub p1 xx th1  by p1th1;
-    sub p1 xx n1  by p1n1;
-    sub p1 xx p1  by p1p1;
-    sub p1 xx p2  by p1p2;
-    sub p1 xx s1  by p1s1;
-    sub p2 xx k1  by p2k1;
-    sub p2 xx t1  by p2t1;
-    sub p2 xx th1  by p2th1;
-    sub p2 xx n1  by p2n1;
-    sub p2 xx p1  by p2p1;
-    sub p2 xx m1  by p2m1;
-    sub p2 xx s1  by p2s1;
-    sub p2 xx rh xx rh  by p2rhrh;
-    sub p3 xx ch3  by p3ch3;
-    sub p3 xx th4  by p3th4;
-    sub p3 xx n1  by p3n1;
-    sub p3 xx p3  by p3p3;
-    sub p3 xx p4  by p3p4;
-    sub m1 xx n1  by m1n1;
-    sub m1 xx p1  by m1p1;
-    sub m1 xx m1  by m1m1;
-    sub y1 xx k1  by y1k1;
-    sub y1 xx k1 xx k1  by y1k1k1;
-    #sub y1 xx ch1  by y1ch1;
-    sub y1 xx th1  by y1th1;
-    sub y1 xx th1 xx th1  by y1th1th1;
-    sub y1 xx n1  by y1n1;
-    sub y1 xx m1  by y1m1;
-    sub y1 xx y1  by y1y1;
-    sub l3 xx k1  by l3k1;
-    sub l3 xx k1 xx k1  by l3k1k1;
-    sub l3xx k3  by l3k3;
-    #sub l3 xx ch1  by l3ch1;
-    sub l3 xx th1  by l3th1;
-    sub l3 xx th1 xx th1  by l3th1th1;
-    #sub l3 xx p1  by l3p1;
-    sub l3 xx p2  by l3p2;
-    sub l3 xx p3  by l3p3;
-    sub l3 xx m1  by l3m1;
-    sub l3 xx l3  by l3l3;
-    sub v1 xx v1  by v1v1;
-    sub z1 xx ch1  by z1ch1;
-    sub z1 xx ch2  by z1ch2;
-    sub z1 xx n1  by z1n1;
-    sub z1 xx m1  by z1m1;
-    sub z1 xx z1  by z1z1;
-    sub sh xx k1  by shk1;
-    sub sh xx k1 xx k1  by shk1k1;
-    sub sh xx t1  by sht1;
-    sub sh xx t2  by sht2;
-    sub sh xx nh  by shnh;
-    sub sh xx p1  by shp1;
-    sub sh xx p2  by shp2;
-    sub sh xx m1  by shm1;
-    #sub s1 xx k1  by s1k1;
-    sub s1 xx k1 xx k1  by s1k1k1;
-    sub s1 xx k2  by s1k2;
-    sub s1 xx t1  by s1t1;
-    sub s1 xx th1  by s1th1;
-    sub s1 xx th2  by s1th2;
-    sub s1 xx n1  by s1n1;
-    sub s1 xx p2  by s1p2;
-    sub s1 xx m1  by s1m1;
-    sub s1 xx s1  by s1s1;
-    sub s1 xx rh xx rh  by s1rhrh;
-    sub h1 xx n1  by h1n1;
-    sub h1 xx m1  by h1m1;
-    sub lh xx lh  by lhlh;
-    sub zh xx k1  by zhk1;
-    sub zh xx k1 xx k1  by zhk1k1;
-    sub zh xx th1  by zhth1;
-    sub zh xx th1 xx th1  by zhth1th1;
-    sub zh xx n1  by zhn1;
-    sub zh xx n1 xx n1  by zhn1n1;
-    sub zh xx p1  by zhp1;
-    sub zh xx m1  by zhm1;
-    sub zh xx v1  by zhv1;
-    sub zh xx s1  by zhs1;
-    sub rh xx rh  by rhrh;
-    sub k1 xx ch1  by k1ch1;
-    sub k1 xx p3  by k1p3;
-    sub k1 xx sh xx t2  by k1sht2;
-    sub k2 xx p3  by k2p3;
-    sub k3 xx p1  by k3p1;
-    sub k3 xx p3  by k3p3;
-    sub nh xx p1  by nhp1;
-    sub th1 xx z1  by th1z1;
-    sub th3 xx k3  by th3k3;
-    sub th3 xx n1  by th3n1;
-    sub th3 xx p3  by th3p3;
-    sub th3 xx m1  by th3m1;
-    sub p3 xx th1  by p3th1;
-    sub p3 xx m1  by p3m1;
-    sub p3 xx z1  by p3z1;
-    sub p3 xx h1  by p3h1;
-    sub m1 xx th1  by m1th1;
-    sub l3 xx th3  by l3th3;
-    sub l3 xx n1  by l1n1;
-    sub v1 xx n1  by v1n1;
-    sub v1 xx z1  by v1z1;
-    sub z1 xx k1  by z1k1;
-    sub z1 xx k1 xx k1  by z1k1k1;
-    sub z1 xx th3  by z1th3;
-    sub z1 xx p1  by z1p1;
-    sub s1 xx k3  by s1k3;
-    sub s1 xx p3  by s1p3;
-    sub s1 xx h1  by s1h1;
-    sub h1 xx th1  by h1th1;
-    sub h1 xx th3  by h1th3;
-    sub h1 xx p3  by h1p3;
-    sub h1 xx s1  by h1s1;
-    sub ch3 xx m1  by ch3m1;
-    sub ng xx k3  by ngk3;
-}  akhn_conjuncts;
+  sub k1 ml_l by k1l1;
+  sub k1 xx k1 by k1k1;
+  sub k1 xx nh by k1nh;
+  sub k1 xx m1 by k1m1;
+  sub k1 xx sh by k1sh;
+  sub k1 xx sh xx nh by k1shnh;
+  sub k1 xx sh xx m1 by k1shm1;
+  sub k1 xx rh xx rh by k1rhrh;
+  sub k3 xx k3 by k3k3;
+  sub k3 xx th3 xx th4 by k3th3th4;
+  sub ng xx k1 by ngk1;
+  sub ng xx ng by ngng;
+  sub ch1 xx ch1 by ch1ch1;
+  sub ch1 xx ch2 by ch1ch2;
+  sub ch3 xx nj by ch3nj;
+  sub nj xx ch1 by njch1;
+  sub nj xx ch2 by njch2;
+  sub nj xx ch3 by njch3;
+  sub nj xx nj by njnj;
+  sub t1 xx t1 by t1t1;
+  sub nh xx t3 by nht3;
+  sub nh xx nh by nhnh;
+  sub th1 xx th1 by th1th1;
+  sub th1 xx th2 by th1th2;
+  sub th1 xx s1 by th1s1;
+  sub th1 xx s1 xx th2 by th1s1th2;
+  sub th3 xx th3 by th3th3;
+  sub th3 xx th4 by th3th4;
+  sub n1 xx th1 by n1th1;
+  sub n1 xx th2 by n1th2;
+  sub n1 xx th3 by n1th3;
+  sub n1 xx th4 by n1th4;
+  sub n1 xx n1 by n1n1;
+  sub n1 xx m1 by n1m1;
+  sub n1 xx rh by n1rh;
+  sub p1 xx p1 by p1p1;
+  sub m1 xx p1 by m1p1;
+  sub m1 xx m1 by m1m1;
+  sub v1 xx v1 by v1v1;
+  sub z1 xx ch1 by z1ch1;
+  sub z1 xx ch2 by z1ch2;
+  sub sh xx t2 by sht2;
+  sub z1 xx z1 by z1z1;
+  sub s1 xx th2 by s1th2;
+  sub s1 xx s1 by s1s1;
+  sub s1 xx rh xx rh by s1rhrh;
+  sub h1 xx n1 by h1n1;
+  sub h1 xx m1 by h1m1;
+  sub lh xx lh by lhlh;
+  sub zh xx v1 by zhv1;
+  sub rh xx rh by rhrh;
+  }  akhn_conjuncts;
 
-lookup akhn_conditional_stacking {
-    ignore sub p3' xx' k3' [xx];
-    sub p3' xx' k3'  by p3k3;
-    ignore sub s1' xx' [p1 k1]' [xx];
-    sub s1' xx' p1'  by s1p1;
-    sub s1' xx' k1'  by s1k1;
-    ignore sub y1' xx' [p1 ch1]' [xx r1 r2];
-    sub y1' xx' p1'  by y1p1;
-    sub y1' xx' ch1' by y1ch1;
-    ignore sub zh' xx' ch1' [xx r1 r2];
-    sub zh' xx' ch1'  by zhch1;
-    ignore sub p3' xx' s1' [xx u1 u2 r1 r2];
-    sub p3' xx' s1'  by p3s1;
-    ignore sub p3' xx' th3' [xx];
-    sub p3' xx' th3'  by p3th3;
-    ignore sub l3' xx' [p1 ch1]' [xx r1 r2];
-    sub l3' xx' p1'  by l3p1;
-    sub l3' xx' ch1' by l3ch1;
-} akhn_conditional_stacking;
+  lookup akhn_conditional_stacking {
+  ignore sub k1' xx' t1' [r1 r2 l1 l2];
+  sub k1' xx' t1' by k1t1;
+
+  ignore sub k1' xx' th1' xx th1;
+  sub k1' xx' th1' by k1th1;
+
+  ignore sub k1' xx' n1' [r1 r2 l1 l2];
+  sub k1' xx' n1' by k1n1;
+
+  ignore sub k1' xx' s1'  [r2 l1 l2];
+  ignore sub k1' xx' s1' xx [r3];
+  sub k1' xx' s1' by k1s1;
+
+  ignore sub k3' xx' k4' [r2];
+  ignore sub k3' xx' k4' xx [r3];
+  sub k3' xx' k4' by k3k4;
+
+
+  ignore sub k3' xx' th3' [r2];
+  ignore sub k3' xx' th3' xx [r3];
+  sub k3' xx' th3' by k3th3;
+
+  ignore sub k3' xx' n1' [r1 r2];
+  sub k3' xx' n1' by k3n1;
+
+  ignore sub k3' xx' m1' [r1 r2];
+  sub k3' xx' m1' by k3m1;
+
+  ignore sub k4' xx' n1' [r1 r2];
+  sub k4' xx' n1' by k4n1;
+
+  ignore sub ch3' xx' ch3' [r2];
+  sub ch3' xx' ch3' by ch3ch3;
+
+  ignore sub t3' xx' t3' [r1 r2 l1 l2];
+  ignore sub t3' xx' t3' xx r3;
+  sub t3' xx' t3' by t3t3;
+
+  ignore sub t3' xx' t4' [r1 r2 l1 l2];
+  ignore sub t3' xx' t4' xx r3;
+  sub t3' xx' t4' by t3t4;
+
+  ignore sub t3' xx' m1' xx r3;
+  sub t3' xx' m1'by t3m1;
+
+  ignore sub nh' xx' t1' [r1 r2];
+  sub nh' xx' t1'by nht1;
+
+  ignore sub nh' xx' t2' [u1 u2 r1 r2 l1 l2 xx];
+  ignore sub nh' xx' t2' xx [r3 l3];
+  sub nh' xx' t2'by nht2;
+
+  ignore sub nh' xx' t4' xx r3;
+  sub nh' xx' t4'by nht4;
+
+  ignore sub nh' xx' m1' [r1 r2];
+  ignore sub nh' xx' m1' xx r3;
+  sub nh' xx' m1' by nhm1;
+
+  ignore sub th1' xx' n1' [u1 u2 r1 r2 l1 l2];
+  ignore sub th1' xx' n1' xx [r3 l3];
+  sub th1' xx' n1' by th1n1;
+
+  ignore sub th1' xx' p4' [r2];
+  ignore sub th1' xx' p4' xx [r3 l3];
+  sub th1' xx' p4' by th1p4;
+
+  ignore sub th1' xx' m1' [r2];
+  ignore sub th1' xx' m1' xx [r3 l3];
+  sub th1' xx' m1' by th1m1;
+
+  ignore sub th1s1' xx' n1' [r1 r2 l1 l2];
+  ignore sub th1s1' xx' n1' xx [r3 l3];
+  sub th1s1' xx' n1' by th1s1n1;
+
+  ignore sub th1s1' xx' m1' [r2 l1 l2];
+  ignore sub th1s1' xx' m1' xx [r3 l3];
+  sub th1s1' xx' m1' by th1s1m1;
+
+  ignore sub th2' xx' n1' [r1 r2 l1 l2];
+  ignore sub th2' xx' n1' xx [r3 l3];
+  sub th2' xx' n1' by th2n1;
+
+  ignore sub th2' xx' m1' [r2 l1 l2];
+  ignore sub th2' xx' m1' xx [r3 l3];
+  sub th2' xx' m1' by th2m1;
+
+  ignore sub th3th4' xx' [n1 m1]' [r1 r2  l1 l2];
+  ignore sub th3th4' xx' [n1 m1]' xx [r3 l3];
+  sub th3th4' xx' n1' by th3th4n1;
+  sub th3th4' xx' m1' by th3th4m1;
+
+  ignore sub th4' xx' n1' [r1 r2 l1 l2];
+  ignore sub th4' xx' n1' xx [r3 l3];
+  sub th4' xx' n1' by th4n1;
+
+  ignore sub th4' xx' m1' [r2 l1 l2];
+  ignore sub th4' xx' m1' xx [r3 l3];
+  sub th4' xx' m1' by th4m1;
+
+  ignore sub p1' xx' [t1 n1 p2]' [r1 r2 l1 l2];
+  ignore sub p1' xx' [t1 n1 p2]' xx [r3 l3];
+  sub p1' xx' t1' by p1t1;
+  sub p1' xx' n1' by p1n1;
+  sub p1' xx' p2' by p1p2;
+
+  ignore sub p1' xx' s1' [r2 l1 l2];
+  ignore sub p1' xx' s1' xx [r3 l3];
+  sub p1' xx' s1' by p1s1;
+
+  ignore sub p1' xx' th1' xx [r3 l3];
+  sub p1' xx' th1' by p1th1;
+
+  ignore sub p2' xx' [k1 t1 th1 n1 p1 m1 s1]' [r1 r2 l1 l2];
+  ignore sub p2' xx' [k1 t1 th1 n1 p1 m1 s1]' xx [r3 l3];
+  sub p2' xx' k1' by p2k1;
+  sub p2' xx' t1' by p2t1;
+  sub p2' xx' th1' by p2th1;
+  sub p2' xx' n1' by p2n1;
+  sub p2' xx' p1' by p2p1;
+  sub p2' xx' m1' by p2m1;
+  sub p2' xx' s1' by p2s1;
+
+  ignore sub p2' xx' rhrh' [r1 r2 l1 l2];
+  sub p2' xx' rhrh' by p2rhrh;
+
+  ignore sub p3' xx' [k3 ch3 th3 p3]' [r2 l1 l2];
+  ignore sub p3' xx' [k3 ch3 th3 p3]' xx [r3 l3];
+  sub p3' xx' k3' by p3k3;
+  sub p3' xx' ch3' by p3ch3;
+  sub p3' xx' th3' by p3th3;
+  sub p3' xx' p3' by p3p3;
+
+  ignore sub p3' xx' th4' [l1 l2];
+  ignore sub p3' xx' th4' xx [r3 l3];
+  sub p3' xx' th4' by p3th4;
+
+  ignore sub p3' xx' n1' [r1 r2 l1 l2];
+  ignore sub p3' xx' n1' xx [r3 l3];
+  sub p3' xx' n1' by p3n1;
+
+  ignore sub p3' xx' p4' [u1 u2 r1 r2 l1 l2];
+  ignore sub p3' xx' p4' xx [r3 l3];
+  sub p3' xx' p4' by p3p4;
+
+  ignore sub m1' xx' n1' [r1 r2 l1 l2];
+  ignore sub m1' xx' n1' xx [r3 l3];
+  sub m1' xx' n1' by m1n1;
+
+  ignore sub y1' xx' [k1 ch1 th1 th1th1 m1]' [r2 l1 l2];
+  ignore sub y1' xx' [k1 ch1 th1 th1th1 m1]' xx [r3 l3];
+  sub y1' xx' k1' by y1k1;
+  sub y1' xx' ch1' by y1ch1;
+  sub y1' xx' th1' by y1th1;
+  sub y1' xx' th1th1' by y1th1th1;
+  sub y1' xx' m1' by y1m1;
+
+  ignore sub y1' xx' [k1k1 n1]' [r1 r2 l1 l2];
+  ignore sub y1' xx' [k1k1 n1]' xx [r3 l3];
+  sub y1' xx' k1k1' by y1k1k1;
+  sub y1' xx' n1' by y1n1;
+
+  ignore sub y1' xx' p1' xx [p1 r3];
+  sub y1' xx' p1' by y1p1;
+
+  ignore sub l3' xx' [k1 k3 ch1 th1]' [r2 l1 l2];
+  ignore sub l3' xx' [k1 k3 ch1 th1]' xx [r3 l3 k3];
+  sub l3' xx' k1' by l3k1;
+  sub l3' xx' k3' by l3k3;
+  sub l3' xx' ch1' by l3ch1;
+  sub l3' xx' th1' by l3th1;
+
+  ignore sub l3' xx' [k1k1 th1th1 m1]' [r1 r2 l1 l2];
+  ignore sub l3' xx' [k1k1 th1th1 m1]' xx [r3 l3];
+  sub l3' xx' k1k1' by l3k1k1;
+  sub l3' xx' th1th1' by l3th1th1;
+  sub l3' xx' m1' by l3m1;
+
+  ignore sub l3' xx' [p1]' [r1 r2 l1 l2];
+  ignore sub l3' xx' [p1]' xx [l3];
+  sub l3' xx' p1' by l3p1;
+
+  ignore sub z1' xx' n1' [r1 r2 l1 l2];
+  ignore sub z1' xx' n1' xx [r3 l3];
+  sub z1' xx' n1' by z1n1;
+
+  ignore sub z1' xx' m1' [r2 l1 l2];
+  ignore sub z1' xx' m1' xx [r3 l3];
+  sub z1' xx' m1' by z1m1;
+
+  ignore sub sh' xx' [k1 k1k1 p2]' [r2 l1 l2];
+  ignore sub sh' xx' [k1k1 p2]' xx r3;
+  sub sh' xx' k1' by shk1;
+  sub sh' xx' k1k1' by shk1k1;
+  sub sh' xx' p2' by shp2;
+
+  ignore sub sh' xx' [t1 nh p1 m1]' xx [t1 nh p1 m1];
+  ignore sub sh' xx' m1' [r1 r2];
+  sub sh' xx' t1' by sht1;
+  sub sh' xx' p1' by shp1;
+  sub sh' xx' nh' by shnh;
+  sub sh' xx' m1' by shm1;
+
+  ignore sub s1' xx' [k1 p1]' [r2 l1 l2];
+  sub s1' xx' k1' by s1k1;
+  sub s1' xx' p1' by s1p1;
+
+  ignore sub s1' xx' [k1k1]' [l1 l2];
+  ignore sub s1' xx' [k1k1]' xx r3;
+  sub s1' xx' k1k1' by s1k1k1;
+
+  ignore sub s1' xx' [k2 p2]' [r1 r2 l1 l2];
+  ignore sub s1' xx' [k2 p2]' xx r3;
+  sub s1' xx' k2' by s1k2;
+  sub s1' xx' p2' by s1p2;
+
+  ignore sub s1' xx' [t1 th1 n1 m1]' xx [t1 th1 n1 m1];
+  ignore sub s1' xx' [t1 n1]' [r1 r2 l1 l2];
+  ignore sub s1' xx' [n1 m1]' xx r3;
+  ignore sub s1' xx' [m1]' [r2 l1 l2];
+  sub s1' xx' t1' by s1t1;
+  sub s1' xx' th1' by s1th1;
+  sub s1' xx' n1' by s1n1;
+  sub s1' xx' m1' by s1m1;
+
+  ignore sub zh' xx' [k1 k1k1 ch1 th1 th1th1 n1 n1n1 p1 m1 s1]' [r1 r2 l1 l2];
+  ignore sub zh' xx' [k1 k1k1 ch1 th1 th1th1 n1 n1n1]' xx r3;
+  ignore sub zh' xx' [p1 m1 s1]' xx [r3 p1 m1 s1];
+  sub zh' xx' k1' by zhk1;
+  sub zh' xx' k1k1' by zhk1k1;
+  sub zh' xx' ch1' by zhch1;
+  sub zh' xx' th1' by zhth1;
+  sub zh' xx' th1th1' by zhth1th1;
+  sub zh' xx' n1' by zhn1;
+  sub zh' xx' n1n1' by zhn1n1;
+  sub zh' xx' p1' by zhp1;
+  sub zh' xx' s1' by zhs1;
+  } akhn_conditional_stacking;
 
 lookup blwf_la_sign_mlym {
   lookupflag 0;
@@ -489,7 +583,7 @@ lookup restore_virama {
 lookup blws_la_sign_excludes {
     sub
         [
-           t1 r3 
+           t1 r3
            k1l3 k3l3 th1l3 p1l3 p2l3 m1l3 l3l3 v1l3 z1l3 s1l3 h1l3
            ch1ch1 ch1ch2 k3k3 rhrh v1v1 s1s1 s1p1 z1z1
         ]
@@ -1267,4 +1361,3 @@ lookup abvm_dotreph {
   pos base [n2 ] <anchor 1668 0> mark @chandrakkala;
   pos base [ngk3 ] <anchor 950 1040> mark @chandrakkala;
 } abvm_dotreph;
-
