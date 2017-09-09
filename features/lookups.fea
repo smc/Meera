@@ -295,6 +295,10 @@ lookup akhn_conjuncts {
   sub s1' xx' n1' by s1n1;
   sub s1' xx' m1' by s1m1;
 
+	ignore sub s1' xx' p3' [u1 u2 r1 r2 l1 l2];
+	ignore sub s1' xx' p3' xx r3;
+	sub s1' xx' p3' by s1p3;
+
   ignore sub zh' xx' [k1 k1k1 ch1 th1 th1th1 n1 n1n1 p1 m1 s1]' [r1 r2 l1 l2];
   ignore sub zh' xx' [k1 k1k1 ch1 th1 th1th1 n1 n1n1]' xx r3;
   ignore sub zh' xx' [p1 m1 s1]' xx [r3 p1 m1 s1];
