@@ -17,5 +17,5 @@ test:
     - apt-get update -y
     - apt-get install -y make libharfbuzz-bin
   script:
-    - cp -r ttfs/* .
+    - cp -r fonts/* .
     - make test
