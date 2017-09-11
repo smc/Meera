@@ -7,11 +7,9 @@ generate-ttf:
     - apt-get install -y make fonttools python-fontforge
   script:
     - make compile
-    - mkdir -p ttfs/
-    - mv *.ttf ttfs/
   artifacts:
     paths:
-    - ttfs/
+    - fonts/
 
 test:
   stage: test

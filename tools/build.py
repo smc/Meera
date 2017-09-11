@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # coding=utf-8
 #
 # Font build utility
@@ -92,7 +92,7 @@ def fixXAvgCharWidth(font):
     font['OS/2'].xAvgCharWidth = int(round(width_sum) / count)
 
 
-def opentype(infont, type, feature, version):
+def opentype(infont, type, feature, version, output_dir=None):
     font = fontforge.open(infont)
     if args.type == 'otf':
         outfont = infont.replace(".sfd", ".otf")
@@ -100,6 +100,8 @@ def opentype(infont, type, feature, version):
     else:
         outfont = infont.replace(".sfd", ".ttf")
         flags = ("opentype", "round", "omit-instructions", "dummy-dsig")
+    if output_dir:
+        outfont = os.path.join(output_dir, outfont)
     print("Generating %s => %s" % (infont, outfont))
     tmpfont = mkstemp(suffix=os.path.basename(outfont))[1]
 
@@ -171,10 +173,10 @@ def opentype(infont, type, feature, version):
     os.remove(tmpfont)
 
 
-def webfonts(infont, type):
+def webfonts(infont, type, output_dir=None):
     font = TTFont(infont, recalcBBoxes=0)
     # Generate WOFF2
-    woffFileName = makeOutputFileName(infont, outputDir=None, extension='.' + type)
+    woffFileName = makeOutputFileName(infont, outputDir=output_dir, extension='.' + type)
     print("Processing %s => %s" % (infont, woffFileName))
     font.flavor = type
     font.save(woffFileName, reorderTables=False)
@@ -184,11 +186,14 @@ def webfonts(infont, type):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Build fonts')
     parser.add_argument('-i', '--input', help='Input font', required=True)
+    parser.add_argument('-o', '--output', help='Output directory')
     parser.add_argument('-v', '--version', help='Version')
     parser.add_argument('-f', '--feature', help='Feature file')
     parser.add_argument('-t', '--type', help='Output type', default='otf')
     args = parser.parse_args()
+    if args.output and not os.path.exists(args.output):
+        os.makedirs(args.output)
     if args.type == 'otf' or args.type == 'ttf':
-        opentype(args.input, args.type, args.feature, args.version)
+        opentype(args.input, args.type, args.feature, args.version, args.output)
     if args.type == 'woff' or args.type == 'woff2':
-        webfonts(args.input, args.type)
+        webfonts(args.input, args.type, args.output)
