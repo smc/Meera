@@ -1258,7 +1258,7 @@ lookup haln_chillu {
 
 lookup abvm_chandrakkala {
   lookupflag 0;
-    markClass [xx chandrabindu] <anchor 47 0> @chandrakkala;
+    markClass [xx chandrabindu circularvirama] <anchor 47 0> @chandrakkala;
     pos base [k1 k3k3 ch1ch1 ch1ch1u1 ch1ch1u2 ch1ch2 ] <anchor 1607 1> mark @chandrakkala;
     pos base [k2 k3 ] <anchor 1532 0> mark @chandrakkala;
     pos base [k4 ] <anchor 2268 0> mark @chandrakkala;
