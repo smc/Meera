@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1496335520
+ModificationTime: 1505624582
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -68,7 +68,7 @@ NameList: Adobe Glyph List
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 48 24 9
+WinInfo: 216 24 9
 BeginPrivate: 1
 BlueValues 35 [-24 0 909 934 1090 1091 1206 1235]
 EndPrivate
@@ -3094,7 +3094,6 @@ Encoding: 3406 3406 71
 Width: 0
 GlyphClass: 4
 Flags: MW
-AnchorPoint: "dotreph" -591.5 1084.5 mark 0
 LayerCount: 2
 Fore
 SplineSet

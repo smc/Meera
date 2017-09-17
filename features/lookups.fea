@@ -1300,7 +1300,7 @@ lookup abvm_chandrakkala {
 
 lookup abvm_dotreph {
   lookupflag 0;
-  markClass [dotreph ] <anchor -592 1084> @dotreph;
+  markClass [dotreph] <anchor -592 1084> @dotreph;
   pos base [k1 k3k3 ch1ch1 ch1ch1u1 ch1ch1u2 ch1ch2 ] <anchor 874 1082> mark @dotreph;
   pos base [k2 k3 ] <anchor 874 1082> mark @dotreph;
   pos base [k4 ]  <anchor 874 1082> mark @dotreph;
