@@ -1362,6 +1362,4 @@ lookup abvm_dotreph {
   pos base [sht1 ] <anchor 1133 1020> mark @visual_centrepoint;
   pos base [s1s1 ] <anchor 1444 1020> mark @visual_centrepoint;
   pos base [h1u1 h1u2 ] <anchor 1055 1020> mark @visual_centrepoint;
-  pos base [n2 ] <anchor 1668 0> mark @chandrakkala;
-  pos base [ngk3 ] <anchor 950 1040> mark @chandrakkala;
 } abvm_dotreph;
