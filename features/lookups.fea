@@ -1256,48 +1256,6 @@ lookup haln_chillu {
 #  lookupflag 0;
 #} kern_latin;
 
-lookup abvm_chandrakkala {
-  lookupflag 0;
-    markClass [xx chandrabindu circularvirama] <anchor 47 0> @chandrakkala;
-    pos base [k1 k3k3 ch1ch1 ch1ch1u1 ch1ch1u2 ch1ch2 ] <anchor 1607 1> mark @chandrakkala;
-    pos base [k2 k3 ] <anchor 1532 0> mark @chandrakkala;
-    pos base [k4 ] <anchor 2268 0> mark @chandrakkala;
-    pos base [ng ] <anchor 1691 0> mark @chandrakkala;
-    pos base [ch1 ] <anchor 1452 0> mark @chandrakkala;
-    pos base [ch2 ] <anchor 2162 0> mark @chandrakkala;
-    pos base [ch3 ] <anchor 1409 0> mark @chandrakkala;
-    pos base [ch4 ] <anchor 2588 0> mark @chandrakkala;
-    pos base [nj ] <anchor 2260 0> mark @chandrakkala;
-    pos base [t1 ] <anchor 987 0> mark @chandrakkala;
-    pos base [t2 ] <anchor 1119 0> mark @chandrakkala;
-    pos base [t3 ] <anchor 2167 -2> mark @chandrakkala;
-    pos base [t4 ] <anchor 2237 0> mark @chandrakkala;
-    pos base [nh ] <anchor 2232 0> mark @chandrakkala;
-    pos base [th1 ] <anchor 1609 0> mark @chandrakkala;
-    pos base [th2 ] <anchor 1387 0> mark @chandrakkala;
-    pos base [th3 ] <anchor 1036 0> mark @chandrakkala;
-    pos base [th4 ] <anchor 1560 0> mark @chandrakkala;
-    pos base [n1 ] <anchor 1562 0> mark @chandrakkala;
-    pos base [p1 ] <anchor 1440 0> mark @chandrakkala;
-    pos base [p2 ] <anchor 1924 0> mark @chandrakkala;
-    pos base [p3 ] <anchor 2023 0> mark @chandrakkala;
-    pos base [p4 ] <anchor 1081 -1> mark @chandrakkala;
-    pos base [m1 ] <anchor 1056 0> mark @chandrakkala;
-    pos base [y1 ] <anchor 1719 0> mark @chandrakkala;
-    pos base [r3 ] <anchor 1205 0> mark @chandrakkala;
-    pos base [rh ] <anchor 1114 0> mark @chandrakkala;
-    pos base [l3 ] <anchor 1438 0> mark @chandrakkala;
-    pos base [lh ] <anchor 1196 0> mark @chandrakkala;
-    pos base [zh ] <anchor 1076 0> mark @chandrakkala;
-    pos base [v1 ] <anchor 1478 0> mark @chandrakkala;
-    pos base [z1 ] <anchor 1699 0> mark @chandrakkala;
-    pos base [sh ] <anchor 1850 0> mark @chandrakkala;
-    pos base [s1 ] <anchor 2168 0> mark @chandrakkala;
-    pos base [h1 ] <anchor 1933 0> mark @chandrakkala;
-    pos base [n2 ] <anchor 1668 0> mark @chandrakkala;
-    pos base [ngk3 ] <anchor 950 1040> mark @chandrakkala;
-} abvm_chandrakkala;
-
 lookup abvm_dotreph {
   lookupflag 0;
   markClass [dotreph anusvaraabove verticalbarvirama] <anchor -592 1084> @visual_centrepoint;

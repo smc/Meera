@@ -109,12 +109,10 @@ feature abvm {
 
     script DFLT;
         language dflt ;
-            lookup abvm_chandrakkala;
             lookup abvm_dotreph;
 
     script mlm2;
         language dflt ;
-            lookup abvm_chandrakkala;
             lookup abvm_dotreph;
 } abvm;
 
