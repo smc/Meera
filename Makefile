@@ -3,7 +3,7 @@
 fontpath=/usr/share/fonts/truetype/malayalam
 fonts=Meera-Regular
 feature=features/features.fea
-PY=python2.7
+PY=python3
 buildscript=tools/build.py
 version=7.0
 outdir=build
